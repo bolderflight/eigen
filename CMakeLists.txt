@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 # Project information
 project(Eigen
-  VERSION 3.0.0
+  VERSION 3.0.1
   DESCRIPTION "Eigen matrix math library."
   LANGUAGES CXX
 )
