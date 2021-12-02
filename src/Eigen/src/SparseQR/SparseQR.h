@@ -168,9 +168,9 @@ class SparseQR : public SparseSolverBase<SparseQR<_MatrixType,_OrderingType> >
     /** \returns an expression of the matrix Q as products of sparse Householder reflectors.
     * The common usage of this function is to apply it to a dense matrix or vector
     * \code
-    * VectorXd B1, B2;
-    * // Initialize B1
-    * B2 = matrixQ() * B1;
+    * VectorXd B1_, B2;
+    * // Initialize B1_
+    * B2 = matrixQ() * B1_;
     * \endcode
     *
     * To get a plain SparseMatrix representation of Q:

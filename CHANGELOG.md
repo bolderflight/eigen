@@ -1,5 +1,8 @@
 # Changelog
 
+## v3.0.1
+- Found more instances of B1 in the Eigen library, which conflicts with the Arduino B1 (binary) macro
+
 ## v3.0.0
 - Eigen v3.4.0
 - Updated directory structure to support Arduino in addition to CMake builds
