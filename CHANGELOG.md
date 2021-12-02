@@ -1,5 +1,8 @@
 # Changelog
 
+## v3.0.2
+- Removed setting the default number of registers, since it caused builds to fail on Raspberry Pi 4
+
 ## v3.0.1
 - Found more instances of B1 in the Eigen library, which conflicts with the Arduino B1 (binary) macro
 

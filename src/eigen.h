@@ -32,8 +32,5 @@
 /* Disable asserts to speed up runtime */
 #define EIGEN_NO_DEBUG 1
 
-/* Set vector registers */
-#define EIGEN_ARCH_DEFAULT_NUMBER_OF_REGISTERS 16
-
 /* Include core header */
 #include "Eigen/Core"
