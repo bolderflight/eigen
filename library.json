@@ -1,0 +1,16 @@
+{
+    "name": "Bolder Flight Systems Eigen",
+    "version": "3.0.2",
+    "description": "Eigen Matrix Math Library.",
+    "keywords": "data, processing",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bolderflight/eigen"
+    },
+    "authors": [
+        {
+            "name": "Brian Taylor",
+            "maintainer": true
+        }
+    ]
+}
